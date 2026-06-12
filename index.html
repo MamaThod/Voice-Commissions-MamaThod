@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Commissions : MamaThod | บริการพากย์เสียงมืออาชีพ</title>
+  <meta name="description"
+    content="บริการรับพากย์เสียงออริจินอลคาแรคเตอร์ อนิเมชั่น 2D/3D คลิปฝึกพากย์ และงานบรรยายหลากหลายสไตล์ โดย MamaThod">
+
+  <!-- Google Fonts Link Removed (imported in style.css) -->
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-accent">Voice</span> Commissions
+      </a>
+      <nav class="nav-links">
+        <a href="#voice-samples">ตัวอย่างเสียง</a>
+        <a href="#pricing">เรทราคา</a>
+        <a href="#guidelines">ข้อตกลง</a>
+        <a href="#reviews">รีวิว</a>
+        <a href="#contact" class="btn-contact-nav">ติดต่อเรา</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="pulse-dot"></span>
+          กำลังเปิดรับงาน (OPEN)
+        </div>
+        <h1 class="hero-title">
+          Voice Commissions<br>
+          <span class="brand-highlight">MamaThod</span>
+        </h1>
+        <p class="hero-tagline">
+          พากย์เสียงตัวละคร อนิเมชั่น งานบรรยาย และโปรเจกต์ต่างๆ ด้วยคุณภาพระดับพรีเมียม
+          สื่อสารทุกอารมณ์ให้เข้าถึงผู้ฟังอย่างแท้จริง
+        </p>
+        <div class="hero-actions">
+          <a href="#voice-samples" class="btn btn-primary">ฟังตัวอย่างเสียง</a>
+          <a href="#pricing" class="btn btn-secondary">เช็คเรทราคา</a>
+        </div>
+      </div>
+      <div class="hero-mascot-container">
+        <div class="mascot-frame">
+          <img src="assets/images/mascot.jpg" alt="Mascot MamaThod" class="mascot-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Characters & Video Showcase Section (Voice Samples) -->
+  <section id="voice-samples" class="characters-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Showcase</span>
+        <h2 class="section-title">ตัวอย่างเสียง</h2>
+        <p class="section-description">กดเลือกตัวละครที่ต้องการเพื่อสไลด์ไปยังการแสดงวิดีโอของตัวละครนั้นๆ ได้โดยตรง</p>
+      </div>
+
+      <!-- Character Navigation Buttons -->
+      <div class="character-buttons-wrapper">
+        <div class="character-buttons-container" id="char-buttons-list">
+          <!-- Dynamically filled by JS -->
+          <div class="char-btn-placeholder">กำลังโหลดคาแรคเตอร์...</div>
+        </div>
+      </div>
+
+      <!-- Character Card Slider Carousel -->
+      <div class="slider-wrapper">
+        <button class="slider-nav-btn prev-btn" id="slider-prev" aria-label="Previous Character">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="slider-viewport" id="slider-viewport">
+          <div class="slider-track" id="slider-track">
+            <!-- Dynamically filled by JS -->
+            <div class="slide-placeholder">กำลังโหลดข้อมูลการแสดง...</div>
+          </div>
+        </div>
+
+        <button class="slider-nav-btn next-btn" id="slider-next" aria-label="Next Character">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Slider Indicators/Dots -->
+      <div class="slider-dots" id="slider-dots-container">
+        <!-- Dynamically filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing-section">
+    <div class="pricing-glow"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Rates</span>
+        <h2 class="section-title">เรทราคาค่าบริการ</h2>
+        <p class="section-description">ค่าบริการพากย์เสียงแยกประเภทตามลักษณะงานและการนำไปใช้งาน</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Price Card 1: Practice -->
+        <div class="price-card featured">
+          <div class="featured-badge">ยอดฮิต</div>
+          <div class="price-header">
+            <h3>ฝึกพากย์ / โปรเจกต์นักศึกษา</h3>
+            <div class="price-tag">
+              <span class="currency">฿</span><span class="amount">150</span><span class="period">+ / ตัวละคร</span>
+            </div>
+            <p class="price-subtext">(ในบางกรณีอาจพากย์ให้ ฟรี! สอบถามรายละเอียด)</p>
+          </div>
+          <ul class="price-features">
+            <li><i class="fas fa-check"></i> คลิปฝึกซ้อม/ลงพอร์ตส่วนตัว</li>
+            <li><i class="fas fa-check"></i> ผลงานโปรเจกต์นักศึกษา</li>
+            <li><i class="fas fa-check"></i> ไม่นำไปใช้หาผลกำไร</li>
+            <li><i class="fas fa-check"></i> ให้เครดิตชื่อผู้พากย์เด่นชัด</li>
+          </ul>
+        </div>
+
+        <!-- Price Card 2: Original Character -->
+        <div class="price-card ">
+          <div class="price-header">
+            <h3>ออริจินอล คาแรคเตอร์</h3>
+            <div class="price-tag">
+              <span class="currency">฿</span><span class="amount">400</span><span class="period">+ / ตัวละคร</span>
+            </div>
+            <p class="price-subtext">พากย์ตัวละครออริจินอลของลูกค้า / VTuber</p>
+          </div>
+          <ul class="price-features">
+            <li><i class="fas fa-check"></i> เสียงพากย์แนะนำตัว (Debut/Lore)</li>
+            <li><i class="fas fa-check"></i> ประโยคสั้นสำหรับไลฟ์สตรีม / คลิป</li>
+            <li><i class="fas fa-check"></i> น้ำเสียงเข้ากับบุคลิกตัวละคร</li>
+            <li><i class="fas fa-check"></i> มิกซ์เสียงเบื้องต้นฟรี (ลดเสียงรบกวน)</li>
+          </ul>
+        </div>
+
+        <!-- Price Card 3: Projects & Others -->
+        <div class="price-card">
+          <div class="price-header">
+            <h3>โปรเจกต์ขนาดใหญ่ / อื่น ๆ</h3>
+            <div class="price-tag">
+              <span class="amount">สอบถาม</span><span class="period">เพิ่มเติม</span>
+            </div>
+            <p class="price-subtext">งานพากย์เกม, แอนิเมชันยาว, หรือโปรเจกต์พิเศษ</p>
+          </div>
+          <ul class="price-features">
+            <li><i class="fas fa-check"></i> พากย์บทสนทนาตัวละครหลายตัว</li>
+            <li><i class="fas fa-check"></i> สารคดี / สื่อการสอนขนาดยาว</li>
+            <li><i class="fas fa-check"></i> ทำงานตามกำหนดเวลาระยะยาว</li>
+            <li><i class="fas fa-check"></i> ประเมินราคาตามจำนวนคำหรือความยาว</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Commercial Rule Banner -->
+      <div class="commercial-banner">
+        <div class="commercial-icon">
+          <i class="fas fa-triangle-exclamation"></i>
+        </div>
+        <div class="commercial-text">
+          <strong>เงื่อนไขการใช้งานเชิงพาณิชย์:</strong> หากนำผลงานเสียงไปใช้ในเชิงพาณิชย์ (เช่น คลิปยูทูปที่มีรายได้,
+          โฆษณาขายสินค้า, เกมจำหน่าย หรือโปรเจกต์ที่หารายได้) <strong>ราคาจะถูกปรับเป็น x2 ของเรทปกติ</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guidelines & Work Type Section -->
+  <section id="guidelines" class="guidelines-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Rules</span>
+        <h2 class="section-title">ข้อตกลงและประเภทงานที่รับ</h2>
+        <p class="section-description">รายละเอียดเงื่อนไขการรับงานพากย์เสียง และขอบเขตประเภทเนื้อหา</p>
+      </div>
+
+      <div class="guidelines-grid">
+        <!-- Accepted -->
+        <div class="guidelines-box accept-box">
+          <div class="box-title">
+            <i class="fas fa-circle-check"></i> งานที่ยินดีรับพากย์
+          </div>
+          <ul class="guidelines-list">
+            <li>แอนิเมชัน ทั้งงาน 2D และ 3D</li>
+            <li>ออริจินอล คาแรคเตอร์ (Original Character / VTuber)</li>
+            <li>งานบรรยาย (Narration), สารคดี, สปอตบทความ</li>
+            <li>โปรเจกต์ส่งอาจารย์ / คลิปฝึกพากย์</li>
+          </ul>
+        </div>
+
+        <!-- Declined -->
+        <div class="guidelines-box decline-box">
+          <div class="box-title">
+            <i class="fas fa-circle-xmark"></i> งานที่ไม่รับพากย์เด็ดขาด
+          </div>
+          <ul class="guidelines-list">
+            <li>สื่อผิดกฎหมายทุกชนิด (อบายมุข, สิ่งเสพติด, ข้อมูลเท็จ)</li>
+            <li>การพากย์เพื่อนำไปแอบอ้างสิทธิ์ของผู้อื่น</li>
+            <li>งานที่นำเสียงไปเทรน AI โดยไม่ได้รับอนุญาต</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- R-18 and special request notice -->
+      <div class="special-inquiry-box">
+        <div class="inquiry-icon"><i class="fas fa-comment-dots"></i></div>
+        <div class="inquiry-content">
+          <h4>งาน R-18+ หรือแนวอื่นๆ นอกเหนือจากนี้?</h4>
+          <p>สามารถทักมาพูดคุยรายละเอียด ข้อตกลง และเรทราคาพิเศษได้เลยครับ ยินดีให้บริการตามขอบเขตที่คุยกันได้!</p>
+        </div>
+      </div>
+
+      <!-- Deliverables card -->
+      <div class="deliverables-card">
+        <div class="deliv-header">
+          <i class="fas fa-file-audio"></i>
+          <h3>รูปแบบไฟล์งานที่คุณจะได้รับ</h3>
+        </div>
+        <p class="deliv-desc">
+          ทางเราจัดส่งไฟล์งานเสียงสองแบบ เพื่อให้ลูกค้านำไปใช้งานต่อได้อย่างยืดหยุ่นที่สุด:
+        </p>
+        <div class="deliv-formats">
+          <div class="format-item">
+            <span class="format-badge">MP3 / WAV</span>
+            <span>บันทึกเสียงในคุณภาพสูง ชัดเจน ไร้เสียงรบกวน</span>
+          </div>
+          <div class="format-item">
+            <span class="format-badge">Mixed & Unmixed</span>
+            <span>ส่งแยกไฟล์ดิบ (ไม่มิกซ์) และไฟล์แต่งเสียงพร้อมใช้งาน (มิกซ์)</span>
+          </div>
+        </div>
+        <p class="deliv-method">
+          <i class="fab fa-google-drive"></i> จัดส่งผ่านลิงก์ <strong>Google Drive</strong> ปลอดภัย ดาวน์โหลดง่าย
+          สะดวกรวดเร็ว โดยผู้ว่าจ้างสามารถระบุเลือกประเภทไฟล์ที่ต้องการได้ตามต้องการ
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Reviews Section -->
+  <section id="reviews" class="reviews-section">
+    <div class="reviews-glow"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Reviews</span>
+        <h2 class="section-title">รีวิวจากลูกค้าที่ใช้บริการ</h2>
+        <p class="section-description">ภาพตัวอย่างรีวิวจากลูกค้าผู้มีอุปการคุณ</p>
+      </div>
+
+      <div class="reviews-grid" id="reviews-container">
+        <!-- Dynamically filled by JS -->
+        <div class="reviews-placeholder">กำลังโหลดรีวิว...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-header">
+          <span class="section-subtitle">Contact</span>
+          <h2>ช่องทางจริง</h2>
+          <p>ยินดีพูดคุยและประเมินราคาก่อนเริ่มงานจริง สามารถติดต่อได้ทางช่องทางด้านล่างนี้</p>
+        </div>
+
+        <div class="contact-buttons">
+          <!-- Facebook Button -->
+          <a href="https://www.facebook.com/mamathod.mt/" target="_blank" rel="noopener noreferrer"
+            class="contact-btn facebook-btn">
+            <div class="btn-icon"><i class="fab fa-facebook-f"></i></div>
+            <div class="btn-text">
+              <span>ติดต่อผ่านเฟส</span>
+              <strong>Facebook</strong>
+            </div>
+          </a>
+
+          <!-- Discord Button -->
+          <a href="javascript:void(0)" class="contact-btn discord-btn" id="discord-copy-btn"
+            title="คลิกเพื่อคัดลอก Discord ID">
+            <div class="btn-icon"><i class="fab fa-discord"></i></div>
+            <div class="btn-text">
+              <span>คลิกเพื่อคัดลอก ID</span>
+              <strong>Discord ID : mt_dt</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Voice Commissions : MamaThod. All Rights Reserved.</p>
+      <p class="footer-credit">Designed for premium user experience & responsiveness.</p>
+    </div>
+  </footer>
+
+  <!-- App JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>

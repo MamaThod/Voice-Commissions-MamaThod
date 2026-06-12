@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Leon S. Kennedy",
+    "type": "ม็อดพากย์ไทย - Resident Evil 4",
+    "avatar": "assets/images/char_cute.png",
+    "characterImage": "assets/images/char_cute.png",
+    "video": "https://youtu.be/8bXFKCBmQ3I?si=5hVnmYToyT1nk0az",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "description": "เสียงสาวน้อยสดใส แนวอนิเมะ โมเอะ คาวาอี้ เหมาะกับตัวละครน่ารัก หรือคลิปแนวสดชื่นแจ่มใส"
+  },
+  {
+    "id": "2",
+    "name": "Aventurine",
+    "type": "ฝึกพากย์ - \"Honkai: Star Rail\"",
+    "avatar": "assets/images/char_cool.png",
+    "characterImage": "assets/images/char_cool.png",
+    "video": "https://drive.google.com/file/d/1MEvph-QgSnfrgyKjWSWViNqD-AD0mDC_/view?usp=drive_link",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "description": "เสียงชายหนุ่มมาดเท่ มั่นใจ มีพลัง เหมาะสำหรับพากย์ตัวละครเอก ตัวร้าย หรือสปอตโฆษณาแนวลุยๆ"
+  },
+  {
+    "id": "3",
+    "name": "Kinich",
+    "type": "ฝึกพากย์ - Genshin Impact ตัวละคร Kinich",
+    "avatar": "assets/images/char_mature.png",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://youtu.be/uqTCA1cGE5I?si=xV2PhYbDOn16PInn",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "4",
+    "name": "อาซื่อ",
+    "type": "ฝึกพากย์ - 《阿巳和小铃铛》อาซื่อ กับ เสี่ยวหลิงตาง",
+    "avatar": "assets/images/4.png",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://drive.google.com/file/d/1_ynXbDQal1akd9BNPoNd5U00rL487T5k/view?usp=sharing",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "5",
+    "name": "Stone",
+    "type": "ฝึกพากย์ - RAMSHACKLE (PILOT)",
+    "avatar": "assets/images/5.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://www.youtube.com/watch?v=hYSYbbV9fWY",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "6",
+    "name": "Wolverine",
+    "type": "ฝึกพากย์ - Marvel Studios’ Deadpool & Wolverine",
+    "avatar": "assets/images/6.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://drive.google.com/file/d/1L0VeJQrTipDiaSkMugjOqcTILqPII4VD/view?usp=drive_link",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "7",
+    "name": "Eddie",
+    "type": "ฝึกพากย์ - silent hill 2 (2024)",
+    "avatar": "assets/images/7.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://youtu.be/Prlj5G9vijU?si=tQsUpLQCDm7EBLvQ",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "8",
+    "name": "Alva Lorenz skin Peregrine",
+    "type": "ผลงานคอมมิชชั่น - คลิป MAGICIAN & TOY MERCHANT มาดู Effect ของประดับทองใหม่กัน~ รีวิวคู่กับคู่สกิน Limited ✨ [ Ep:1 ] ( ช่อง Pei Lan-Wu艺术家  )",
+    "avatar": "assets/images/8.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://youtu.be/y2y8uI-DpcI?si=UjmIIciZi9LyZnst",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "9",
+    "name": "มาซิน",
+    "type": "ผลงานคอมมิชชั่น - คลิป Masameer County ",
+    "avatar": "assets/images/9.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://drive.google.com/file/d/17bAIIgfAKyvxhXR6qzvNsUeewmWCfr9g/view?usp=drive_link",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  },
+  {
+    "id": "10",
+    "name": "Sakurama Hibiki",
+    "type": "ฝึกพากย์ - Go, Go, Loser Ranger - Official Trailer 2",
+    "avatar": "assets/images/10.jpg",
+    "characterImage": "assets/images/char_mature.png",
+    "video": "https://www.facebook.com/share/v/Vyha44WGg2Xc3xYH/",
+    "voiceSample": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "เสียงหญิงสาวผู้ใหญ่นุ่มลึก มีเสน่ห์ ลึกลับ น่าค้นหา เหมาะกับแนวผู้ใหญ่ บรรยายสารคดี หรือแนว Ara Ara"
+  }
+]

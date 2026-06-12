@@ -1,0 +1,16 @@
+[
+  {
+    "id": "review_1",
+    "clientName": "คุณ นัทสึมิ (Natsumi)",
+    "rating": 5,
+    "reviewImage": "assets/images/review_1.png",
+    "comment": "เสียงพากย์น่ารักตรงใจมากค่ะ งานเร็วและมิกซ์เสียงออกมาได้เคลียร์ใสไม่มีเสียงรบกวนเลย แนะนำเลยค่ะ!"
+  },
+  {
+    "id": "review_2",
+    "clientName": "Studio Gimmick",
+    "rating": 5,
+    "reviewImage": "assets/images/review_2.png",
+    "comment": "คุณภาพเสียงยอดเยี่ยมมากครับ ส่งงานตรงเวลา คุยง่าย ปรับแก้นิดหน่อยตามบรีฟก็เสร็จเรียบร้อย รอบหน้าใช้บริการอีกแน่นอนครับ"
+  }
+]
